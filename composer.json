@@ -1,0 +1,30 @@
+{
+
+  "name" : "gnarm/coati",
+  "minimum-stability" : "dev",
+
+  "require" : {
+
+    "gnarm/fennec" : "dev-dev",
+    "mikecao/flight" : "v1.2.13",
+    "mustangostang/spyc" : "0.5.1",
+    "twig/twig" : "v1.23.0",
+    "swiftmailer/swiftmailer" : "v5.4.1"
+
+  },
+
+  "require-dev" : {
+    "phpdocumentor/phpdocumentor" : "2.*"
+  },
+
+  "autoload" : {
+
+    "psr-4" : {
+
+      "Coati\\" : "Coati/"
+
+    }
+
+  }
+
+}
